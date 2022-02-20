@@ -1,0 +1,200 @@
+/*Limpar formatação padrão*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #8B4513 url(../imagens/cabelo1.png)no-repeat center top;
+	
+	
+
+	
+}
+
+/*
+ Layout
+*/
+
+#area-cabeçalho{
+	background: #BDBDBD url(../imagens/logo3.png);
+	padding: 25px;
+	text-align: center;
+
+}
+
+#area-logo, #area-menu{
+	padding: 10px;
+}
+
+#area-principal{
+	width: 940px;
+	margin: 0 auto;
+	padding: 15px;
+   
+}
+
+
+
+#area-Postagens{
+	width: 500px;
+	float: left;
+
+}
+
+#area-Postagens-valores {
+	width: 650px;
+	float: left;
+
+
+}
+
+#area-Postagens-3 {
+	width: 650px;
+	float: left;
+
+
+}
+
+
+#area-Produtos1{
+	width: 250px;
+	float: right;
+	margin-right: 45px;
+
+}
+#area-Produtos2{
+	width: 250px;
+	float: left;
+	margin-left: 45px;
+
+}
+
+#area-cortes1{
+	width: 200px;
+	float: left;
+	margin-left: 65px;
+
+}
+
+#area-cortes2{
+	width: 200px;
+	float: right;
+	margin-right: 35px;
+
+}
+
+#area-cortes3{
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+
+}
+
+
+
+#area-lateral{
+	width: 240px;
+	float:right;
+}
+
+.postagem{
+	padding: 5px;
+	margin-bottom: 10px;
+	background: #D8D8D8;
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+.postagem-lateral{
+         font-size: 0.8em;
+         padding: 5px; 
+         border-bottom: 1px dotted #ccc; 
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #ccc;
+	
+}
+
+
+/* Formatação do menu*/
+
+a{
+	text-decoration: none;
+}
+
+ a:link, a:visited{
+	color: #f7b600;
+	 
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#area-cabeçalho a:link, #area-cabeçalho  a:visited{
+	color: #F3F705;
+	padding: 8px 12px; 
+    
+}
+
+#area-cabeçalho a:hover{
+	color: #f7b600;
+	background:#151515;
+	text-decoration: none;
+}
+
+
+/* Formatações em geral*/
+
+h1{
+	color: #0B0101;
+	font-size: 2.5em;
+} 
+
+h2{
+	color: #f7b600;
+
+}
+
+h3{
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+}
+/*
+p {
+	color: white;
+}
+*/
+
+.branco{
+	color: white;
+	font-family: Brush Script MT, Snell Roundhand;
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+
+}
+
+
+.fonte {
+	font-family: Brush Script MT, Snell Roundhand, cursive;
+}
